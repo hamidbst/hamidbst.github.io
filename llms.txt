@@ -1,0 +1,40 @@
+# Hamid Boustanifar
+
+> Professor of Finance and Academic Director of the MSc in Corporate Finance at EDHEC Business School (France). Research applies textual analysis and machine learning (including large language models) to empirical asset pricing and corporate finance — intangibles, corporate culture, brands, disclosure, and managerial communication and their effects on firm value and stock returns.
+
+## Profiles
+- ORCID: https://orcid.org/0000-0002-8639-7736
+- Google Scholar: https://scholar.google.com/citations?user=xs13UdUAAAAJ&hl=en
+- SSRN author page: https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=1580680
+- LinkedIn: https://www.linkedin.com/in/hamid-boustanifar-a5983914a/
+
+## Selected publications
+- The Brand Premium (with Young Dae Kang), Review of Financial Studies, 2025. https://doi.org/10.1093/rfs/hhae056 — An equal-weighted portfolio of top brands earns a ~3% annual abnormal return, driven by internally developed brands; analysts underestimate top brands' future earnings.
+- Intangible Liabilities (with Arnt Verriest), Management Science, forthcoming. https://doi.org/10.1287/mnsc.2023.03619 — A text-based measure of intangible liabilities predicts future lawsuits and reputational decline; a long-short portfolio earns ~3% annual abnormal return.
+- Management Disclosure and Media Coverage (with S. Mansouri), Journal of Financial and Quantitative Analysis, forthcoming. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5421137 — Evasive managerial answers in earnings-call Q&A reduce subsequent media coverage, lowering investor engagement and stock performance.
+- Employee Satisfaction and Long-Run Stock Returns, 1984-2020 (with Y. Kang), Financial Analysts Journal, 2022. https://doi.org/10.1080/0015198X.2022.2074241 — "100 Best Companies to Work For" firms earned significantly higher risk-adjusted returns over 1984-2020.
+- Wages and Human Capital in Finance: International Evidence, 1970-2011 (with E. Grant, A. Reshef), Review of Finance, 2018. https://academic.oup.com/rof/article/22/2/699/3075313 — Documents the global "finance wage premium" and its link to deregulation and skill demand.
+- Sovereign to Corporate Risk Spillovers (with P. Augustin, J. Breckenfelder, J. Schnitzler), Journal of Money, Credit and Banking, 2018. https://onlinelibrary.wiley.com/doi/abs/10.1111/jmcb.12497
+- Taking Chances? CEO Risk Propensity and Risky Internationalization (with E. Zajac, F. Zilja), Journal of International Business Studies, 2022. https://link.springer.com/article/10.1057/s41267-021-00480-9
+- Finance and Employment: Evidence from US Banking Reforms, Journal of Banking & Finance, 2014. https://www.sciencedirect.com/science/article/abs/pii/S0378426614002040
+
+## Working papers
+- Context Matters: Charismatic Communication and Investor Reactions (with A. Nazemi, M. Zamani). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7040618
+- The Fearless Premium: Workplace Psychological Safety and Stock Returns (with S. Sheykhi). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6391618
+- The Rise of Red Equity. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5409582
+- Measuring Business Social Irresponsibility: The Case of Sin Stocks (with P. Schwarz). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4395028
+- Risk Across Domains: CEOs' Risk Allocation (with E. Zajac, D. Zhang). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4732729
+- Finance Gets Personal (with H. Jiang, D. Zhang, L. Zheng). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4917282
+
+## Data
+Open datasets are shared at https://www.hamidboustanifar.com/#data — including the Best Brands list (2000-2024), Best Companies to Work For (1984-2025), the Intangible Liabilities dictionary/factor/firm-level data, and management non-answer measures.
+
+## Teaching
+Courses: Textual Analysis in Finance (EDHEC, 2023-present, evaluation 5.0/5); Advanced Corporate Finance (EDHEC Nice, 2018-present, 4.9/5; EDHEC London, 2018-2021, 4.8/5); Valuation (EDHEC, 2019-2022, 4.8/5); Applied Finance (BI Norwegian Business School, Master level, 2013-2017, 5.0/5). Teaching assistant at Stockholm School of Economics (Corporate Transition & Restructuring; Valuation and Capital Budgeting; International Financial Management).
+Awards: Excellence in Teaching Award, EDHEC (2020, 2022, 2023); Best Finance Teacher Award, BI Norwegian Business School.
+
+## Workshops
+Founder and organizer of the EDHEC AI & Finance Workshop at EDHEC Business School (Nice campus): 1st edition 2025 (https://www.edhec.edu/en/news/ai-finance-check-out-programme-edhec-workshop-27-may-nice-and-register) and 2nd edition 2026 (https://hamidbst.github.io/edhec-ai-finance-workshop-2026/).
+
+## Videos
+Teaching videos (on YouTube, linked at https://www.hamidboustanifar.com/#videos) covering (1) valuation — multiples/comparables, LTM/TTM data, calendarization, share definitions, CAPM and Fama-French in Python, sensitivity analysis, Excel-Python integration with xlwings, and a three-part Monte Carlo simulation series; (2) installing and using Python — Python + VS Code setup, virtual environments, and Jupyter Notebook; and (3) textual analysis — extracting text from PDFs and building wordclouds.
