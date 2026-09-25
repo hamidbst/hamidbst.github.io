@@ -19,6 +19,7 @@
 - Finance and Employment: Evidence from US Banking Reforms, Journal of Banking & Finance, 2014. https://www.sciencedirect.com/science/article/abs/pii/S0378426614002040
 
 ## Working papers
+- Same Text, Different Numbers: The Divergence of LLM-Based Measures (with Sasan Mansouri). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7519558 — Seven LLMs score the same S&P 500 earnings-call transcripts on thirteen textual measures; cross-model rank correlations average only 0.52 and model choice materially changes downstream regression results, so LLM-based variables should be treated as model-contingent and validated across providers.
 - Context Matters: Charismatic Communication and Investor Reactions (with A. Nazemi, M. Zamani). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7040618
 - The Fearless Premium: Workplace Psychological Safety and Stock Returns (with S. Sheykhi). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6391618
 - The Rise of Red Equity. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5409582
