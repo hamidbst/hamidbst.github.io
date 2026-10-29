@@ -188,6 +188,17 @@
   .plinks a{white-space:nowrap}
   .press{font-size:13px; color:var(--muted); margin-top:6px}
 
+  /* Highlighted data-release box (Data section) */
+  .datanote{margin:12px 0 2px; padding:14px 16px; background:var(--sub-bg);
+            border:1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+            border-left:5px solid var(--accent); border-radius:0 10px 10px 0}
+  .datanote p{margin:6px 0 0; font-size:14.5px}
+  .dn-label{font-weight:700; font-size:15.5px; color:var(--accent)}
+  .dn-cite{color:var(--muted); font-size:13.5px}
+  .dn-btn{display:inline-block; margin-top:10px; padding:7px 14px; border-radius:999px;
+          background:var(--band-bg); color:var(--band-fg); font-size:14px; font-weight:600}
+  .dn-btn:hover{text-decoration:none; filter:brightness(1.12)}
+
   .tquote{font-style:italic; color:var(--muted); border-left:3px solid var(--accent-soft);
           padding-left:14px; margin:12px 0 4px}
   .course{display:flex; justify-content:space-between; align-items:baseline; gap:14px;
@@ -498,14 +509,15 @@
   <div class="plinks"><a href="https://www.dropbox.com/scl/fi/2rdcr3vp26568pk8n2wuu/IL_dic.xlsx?rlkey=eqyp7cbdmr67h6tatgqk5d7qd&st=25z6oc4w&dl=0">Dictionary</a> · <a href="https://www.dropbox.com/scl/fi/eslr0i652itv1a/IL_factor.csv?rlkey=5pwc4wxjvmjuqfohsp75xj8b2&st=4jwznkxm&dl=0">Factor</a> · <a href="https://www.dropbox.com/scl/fi/kf9dcy4a1ec13fij8spl3/IL_data.dta?rlkey=vc933q1oqb62gzdr40&st=nunr41ga&dl=0">Firm-level data</a></div>
 </div>
 <div class="pub" id="earnings-call-measures">
-  <div class="t">Earnings Call Textual Measures (2001–present)</div>
-  <div class="meta">with Sasan Mansouri · call-level measures of management answers in S&amp;P Capital IQ and StreetEvents earnings calls, including the non-answer measure and other textual measures such as tone, uncertainty, jargon, and forward-looking language · choose your sample, years, and measures and download as CSV, Stata, or Parquet · updated regularly · free for non-commercial academic use</div>
-  <div class="plinks"><a href="https://sasanm.de/econlinguistics/#data" target="_blank" rel="noopener">Explore and download (Econlinguistics)</a></div>
-</div>
-<div class="pub">
   <div class="t">Management non-answer measures and media coverage (firm-quarter)</div>
   <div class="meta">from <em>Management Disclosure and Media Coverage</em> (JFQA, 2026)</div>
-  <div class="plinks"><a href="https://www.dropbox.com/scl/fi/tjb5ix6j7hkfe73vgs3qz/DatasetBoustanifar-MansouriJFQA.zip?rlkey=hfilwvutlpq0aaz9562h8to0m&dl=0">Download (paper sample)</a> · <a href="https://sasanm.de/econlinguistics/#data" target="_blank" rel="noopener">Updated data, 2001–present (Econlinguistics)</a></div>
+  <div class="plinks"><a href="https://www.dropbox.com/scl/fi/tjb5ix6j7hkfe73vgs3qz/DatasetBoustanifar-MansouriJFQA.zip?rlkey=hfilwvutlpq0aaz9562h8to0m&dl=0">Download (paper sample)</a></div>
+  <div class="datanote">
+    <div class="dn-label">New: earnings-call textual data, 2001–present</div>
+    <p>As part of the <em>Management Disclosure and Media Coverage</em> project, we also release call-level textual measures of management answers for S&amp;P Capital IQ and StreetEvents earnings calls since 2001. Besides the non-answer measure, the data include many other textual measures, such as tone, uncertainty, negativity, forward-lookingness, litigiousness, complexity, financial jargon, intangible liabilities, total words, and the number of answer turns. You can choose the sample, years, and measures and download them as CSV, Stata, or Parquet. The data are updated regularly and free for non-commercial academic use.</p>
+    <p class="dn-cite">If you use these data, please cite: Boustanifar, H., and S. Mansouri (2026). Management Disclosure and Media Coverage. <em>Journal of Financial and Quantitative Analysis</em>.</p>
+    <a class="dn-btn" href="https://sasanm.de/econlinguistics/#data" target="_blank" rel="noopener">Explore and download the data (Econlinguistics) →</a>
+  </div>
 </div>
 </section>
 
