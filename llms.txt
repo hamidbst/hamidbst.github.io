@@ -29,6 +29,7 @@
 
 ## Data
 Open datasets are shared at https://www.hamidboustanifar.com/#data — including intangible capital for all Compustat firms (1950-2025; replications of the Peters-Taylor, Iqbal et al., Eisfeldt-Papanikolaou, and Ewens-Peters-Wang measures, from The Rise of Red Equity), the Best Brands list (2000-2024), Best Companies to Work For (1984-2025), the Intangible Liabilities dictionary/factor/firm-level data, and management non-answer measures.
+Earnings Call Textual Measures (with Sasan Mansouri), https://sasanm.de/econlinguistics/#data — call-level textual measures of management answers in S&P Capital IQ and StreetEvents earnings calls from 2001 to the present, including the non-answer measure used in Management Disclosure and Media Coverage (JFQA, 2026); updated regularly; downloadable as CSV, Stata, or Parquet for non-commercial academic use.
 
 ## Teaching
 Courses: Textual Analysis in Finance (EDHEC, 2023-present, evaluation 5.0/5); Advanced Corporate Finance (EDHEC Nice, 2018-present, 4.9/5; EDHEC London, 2018-2021, 4.8/5); Valuation (EDHEC, 2019-2022, 4.8/5); Applied Finance (BI Norwegian Business School, Master level, 2013-2017, 5.0/5). Teaching assistant at Stockholm School of Economics (Corporate Transition & Restructuring; Valuation and Capital Budgeting; International Financial Management).
