@@ -28,7 +28,7 @@
 - Finance Gets Personal (with H. Jiang, D. Zhang, L. Zheng). https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4917282
 
 ## Data
-Open datasets are shared at https://www.hamidboustanifar.com/#data — including intangible capital for all Compustat firms (1950-2025; replications of the Peters-Taylor, Iqbal et al., Eisfeldt-Papanikolaou, and Ewens-Peters-Wang measures, from The Rise of Red Equity), the Best Brands list (2000-2024), Best Companies to Work For (1984-2025), the Intangible Liabilities dictionary/factor/firm-level data, and management non-answer measures.
+Open datasets are shared at https://www.hamidboustanifar.com/#data — including intangible capital for all Compustat firms (1950-2025; replications of the Peters-Taylor, Iqbal et al., Eisfeldt-Papanikolaou, and Ewens-Peters-Wang measures, from The Rise of Red Equity), the Best Brands list (2000-2026), Best Companies to Work For (1984-2025), the Intangible Liabilities dictionary/factor/firm-level data, and management non-answer measures.
 As part of the Management Disclosure and Media Coverage project (with Sasan Mansouri, JFQA 2026), we also release call-level textual measures of management answers in S&P Capital IQ and StreetEvents earnings calls from 2001 to the present: the non-answer measure plus tone, uncertainty, negativity, forward-lookingness, litigiousness, complexity, financial jargon, intangible liabilities, total words, number of answer turns, and more; updated regularly; downloadable as CSV, Stata, or Parquet for non-commercial academic use at https://sasanm.de/econlinguistics/#data. Users of these data should cite Boustanifar and Mansouri (2026), "Management Disclosure and Media Coverage," Journal of Financial and Quantitative Analysis.
 
 ## Teaching
