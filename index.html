@@ -200,6 +200,23 @@
           background:var(--band-bg); color:var(--band-fg); font-size:14px; font-weight:600}
   .dn-btn:hover{text-decoration:none; filter:brightness(1.12)}
 
+  /* Original-vs-updated results tables (Data section) */
+  details.res{margin-top:10px}
+  details.res > summary{font-weight:600; font-size:14px}
+  .rwrap{overflow-x:auto; margin-top:10px; padding:12px 14px; background:var(--card);
+         border:1px solid var(--line); border-radius:8px}
+  .rtable{border-collapse:collapse; width:100%; min-width:460px; font-size:14px;
+          font-variant-numeric:tabular-nums}
+  .rtable th, .rtable td{padding:5px 8px; text-align:right; white-space:nowrap}
+  .rtable th:first-child, .rtable td:first-child{text-align:left; white-space:normal}
+  .rtable thead th{color:var(--muted); font-weight:500; font-size:12.5px; line-height:1.35}
+  .rtable thead tr:last-child th{border-bottom:1px solid var(--line)}
+  .rtable tbody tr:last-child td{border-bottom:1px solid var(--line)}
+  .rtable td.a{font-weight:700}
+  .rtable tr.grp td{font-weight:700; padding-top:12px}
+  .rtable tr.ind td:first-child{padding-left:22px}
+  .rnote{font-size:12.5px; color:var(--muted); margin:8px 0 0}
+
   .tquote{font-style:italic; color:var(--muted); border-left:3px solid var(--accent-soft);
           padding-left:14px; margin:12px 0 4px}
   .course{display:flex; justify-content:space-between; align-items:baseline; gap:14px;
@@ -498,11 +515,48 @@
   <div class="t">Best Brands in the U.S. (2000–2026)</div>
   <div class="meta">from <em>The Brand Premium</em> (RFS, 2025) · updated to 2026</div>
   <div class="plinks"><a href="https://www.dropbox.com/scl/fi/ujg0u99q0agt70lxt6koo/best_brands_US.xlsx?rlkey=eswo7q47hpuji7ii4nok4plxf&dl=0">Download</a></div>
+  <details class="res"><summary>Original vs. updated results (FF6 alpha)</summary>
+    <div class="rwrap">
+      <table class="rtable">
+        <caption class="rnote" style="caption-side:top; text-align:left; margin:0 0 6px">Brand portfolios: Fama–French six-factor alpha, two ways to identify brand firms</caption>
+        <thead>
+          <tr><th></th><th colspan="2">Paper sample<br>Sep 2000 – Dec 2020</th><th colspan="2">Updated<br>Sep 2000 – Aug 2026</th></tr>
+          <tr><th></th><th>Alpha</th><th>t-stat</th><th>Alpha</th><th>t-stat</th></tr>
+        </thead>
+        <tbody>
+          <tr class="grp"><td colspan="5">Interbrand Best Global Brands</td></tr>
+          <tr class="ind"><td>Equal-weighted</td><td class="a">0.22</td><td>2.58</td><td class="a">0.19</td><td>2.54</td></tr>
+          <tr class="ind"><td>Capped value-weighted</td><td class="a">0.22</td><td>2.63</td><td class="a">0.19</td><td>2.56</td></tr>
+          <tr class="grp"><td colspan="5">10-K text: most “brand” mentions</td></tr>
+          <tr class="ind"><td>Equal-weighted</td><td class="a">0.53</td><td>2.99</td><td class="a">0.32</td><td>1.96</td></tr>
+          <tr class="ind"><td>Capped value-weighted</td><td class="a">0.53</td><td>2.94</td><td class="a">0.33</td><td>2.02</td></tr>
+        </tbody>
+      </table>
+      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="https://www.dropbox.com/scl/fi/hhzwhucz5c0i8ma4ls5l0/text_brand_vs_interbrand_ff6_table.png?rlkey=lzbt2wge89t23xt0t0974qtsl&dl=0">Table as image (PNG)</a></p>
+    </div>
+  </details>
 </div>
 <div class="pub">
   <div class="t">Best Companies to Work For (1984–2026)</div>
   <div class="meta">from <em>Employee Satisfaction and Long-Run Stock Returns</em> (FAJ, 2022) · updated to 2026</div>
   <div class="plinks"><a href="https://www.dropbox.com/scl/fi/gdy0fcnx8ucmy8hipnn9y/BC_data_updated_2026.xlsx?rlkey=dqwx1ysexfztgs2l4udjbelg3&dl=0">Download</a></div>
+  <details class="res"><summary>Original vs. updated results (FF6 alpha)</summary>
+    <div class="rwrap">
+      <table class="rtable">
+        <caption class="rnote" style="caption-side:top; text-align:left; margin:0 0 6px">Best Companies to Work For: Fama–French six-factor alpha by portfolio weighting</caption>
+        <thead>
+          <tr><th></th><th colspan="2">Main paper<br>Apr 1984 – Dec 2020</th><th colspan="2">Updated<br>Apr 1984 – Aug 2026</th></tr>
+          <tr><th></th><th>Alpha</th><th>t-stat</th><th>Alpha</th><th>t-stat</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Equal-weighted</td><td class="a">0.20</td><td>2.60</td><td class="a">0.20</td><td>2.63</td></tr>
+          <tr><td>Value-weighted</td><td class="a">0.17</td><td>1.85</td><td class="a">0.22</td><td>2.38</td></tr>
+          <tr><td>Capped value-weighted</td><td class="a">0.22</td><td>3.16</td><td class="a">0.22</td><td>3.11</td></tr>
+        </tbody>
+      </table>
+      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="https://www.dropbox.com/scl/fi/f7hmed2tuzb50enwh5rtd/best_companies_ff6_table_all_weights.png?rlkey=reffdx3532xmecrxj0km1a8ew&dl=0">Table as image (PNG)</a></p>
+    </div>
+  </details>
 </div>
 <div class="pub">
   <div class="t">Intangible Liabilities: firm-level data and dictionary (1995–2025)</div>
