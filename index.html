@@ -1245,14 +1245,14 @@
   <details><summary>Abstract</summary><div class="abs">When liabilities are deemed improbable or cannot be reliably estimated by management, they are not recorded on the balance sheet. Instead, they are disclosed qualitatively in the company's filings. Examples include obligations related to pending or future lawsuits, product liability, environmental matters, false advertising, or patent and copyright infringements. We refer to these obligations as intangible liabilities. We construct a firm-level, text-based measure of intangible liabilities (IL). IL is positively related to firm size, volatility, and share turnover, and is negatively correlated with accounting performance, abnormal returns, and Tobin's Q. IL also predictably varies across industries. Moreover, IL predicts future lawsuits against firms and the future deterioration of their reputations. Companies with higher IL trade at lower valuation ratios and have significantly higher future crash risks. A portfolio that is long on high IL and short on low IL yields an annual abnormal return of 3% after accounting for common factors. Overall, the results suggest that intangible liabilities are a significant determinant of firm value and stock returns.</div></details>
   <details class="res res-paper"><summary>Updated results (through Aug 2026)</summary>
     <div class="rwrap">
-      <a href="figures/intangible-liabilities-premium-updated.webp" target="_blank" rel="noopener" title="Open full size">
-        <img class="rfig" src="figures/intangible-liabilities-premium-updated.webp" width="1000" height="1000" loading="lazy"
-             alt="Bar chart: the intangible liabilities premium, published (1996–2021, 306 months) vs. updated (1996–Aug 2026, 362 months). High-minus-low IL portfolio, percent per year: excess return 4.35 (t = 2.49) vs. 4.48 (t = 2.58); CAPM alpha 4.89 (t = 2.57) vs. 4.63 (t = 2.43); FF3 alpha 5.47 (t = 3.24) vs. 5.59 (t = 3.34); FF6 alpha 3.45 (t = 2.72) vs. 4.71 (t = 3.39).">
+      <a href="figures/intangible-liabilities-premium-recount.webp" target="_blank" rel="noopener" title="Open full size">
+        <img class="rfig" src="figures/intangible-liabilities-premium-recount.webp" width="1000" height="1000" loading="lazy"
+             alt="Bar chart: the intangible liabilities premium, recounted. High-minus-low IL portfolio, percent per year, for the published Table 7 (1996–2021), the recount over the same months (1996–2021), and the recount extended to August 2026: excess return 4.35 (t = 2.49), 4.54 (t = 2.41), 4.59 (t = 2.51); CAPM alpha 4.89 (2.57), 5.17 (2.41), 4.90 (2.36); FF3 alpha 5.47 (3.24), 5.92 (3.08), 6.04 (3.39); FF6 alpha 3.45 (2.72), 3.88 (2.64), 4.97 (3.37).">
       </a>
-      <p class="rnote">High-minus-low IL portfolio, % per year (t-stat), published 1996–2021 → updated 1996–Aug 2026: excess return 4.35 (2.49) → 4.48 (2.58); CAPM alpha 4.89 (2.57) → 4.63 (2.43); FF3 alpha 5.47 (3.24) → 5.59 (3.34); FF6 alpha 3.45 (2.72) → 4.71 (3.39). Value-weighted quintiles on IL words per total words, December fiscal year-ends, Newey-West t-statistics. Published values: Table 7 of the paper; update adds 10-K data for FY2022–2025. Click the chart to enlarge.</p>
+      <p class="rnote">High-minus-low IL portfolio, % per year (Newey-West t): published (1996–2021) | recount, same months (1996–2021) | recount, extended to Aug 2026. Excess return 4.35 (2.49) | 4.54 (2.41) | 4.59 (2.51); CAPM alpha 4.89 (2.57) | 5.17 (2.41) | 4.90 (2.36); FF3 alpha 5.47 (3.24) | 5.92 (3.08) | 6.04 (3.39); FF6 alpha 3.45 (2.72) | 3.88 (2.64) | 4.97 (3.37). Value-weighted quintiles on IL words per total words, December fiscal year-ends. Published: Table 7 of the paper. Recount: IL counted with one method for FY1995–2025; CRSP and Fama–French factors to August 2026. Click the chart to enlarge.</p>
     </div>
   </details>
-  <div class="plinks"><a href="papers/intangible-liabilities.pdf">PDF</a> · <a href="https://doi.org/10.1287/mnsc.2023.03619">DOI</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543436">SSRN</a> · <a href="https://www.dropbox.com/scl/fi/o8poo0g2m9tfviauqjamv/IL_data_1995_2025.xlsx?rlkey=56w7xgfu98gwxsd1n9445o768&dl=0">Data (updated to 2025)</a></div>
+  <div class="plinks"><a href="papers/intangible-liabilities.pdf">PDF</a> · <a href="https://doi.org/10.1287/mnsc.2023.03619">DOI</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543436">SSRN</a> · <a href="data/intangible-liabilities-firm-level.xlsx">Data (updated to 2025)</a></div>
   <div class="press">Featured in <a href="https://www.edhec.edu/en/research-and-faculty/edhec-vox/intangible-liabilities-the-hidden-risks-that-shape-firm-value" target="_blank" rel="noopener">EDHEC Vox</a>, "Intangible Liabilities: the hidden risks that shape firm value."</div>
 </div>
 
@@ -1286,10 +1286,10 @@
           <tr class="ind"><td>Capped value-weighted</td><td class="a">0.53</td><td>2.94</td><td class="a">0.33</td><td>2.02</td></tr>
         </tbody>
       </table>
-      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="https://www.dropbox.com/scl/fi/hhzwhucz5c0i8ma4ls5l0/text_brand_vs_interbrand_ff6_table.png?rlkey=lzbt2wge89t23xt0t0974qtsl&dl=0">Table as image (PNG)</a></p>
+      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="figures/best-brands-ff6-table.png">Table as image (PNG)</a></p>
     </div>
   </details>
-  <div class="plinks"><a href="papers/brand-premium.pdf">PDF</a> · <a href="https://doi.org/10.1093/rfs/hhae056">DOI</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4146667">SSRN</a> · <a href="https://www.dropbox.com/scl/fi/ujg0u99q0agt70lxt6koo/best_brands_US.xlsx?rlkey=eswo7q47hpuji7ii4nok4plxf&dl=0">Data (updated to 2026)</a></div>
+  <div class="plinks"><a href="papers/brand-premium.pdf">PDF</a> · <a href="https://doi.org/10.1093/rfs/hhae056">DOI</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4146667">SSRN</a> · <a href="data/best-brands-us.xlsx">Data (updated to 2026)</a></div>
   <div class="press">Featured in <a href="https://alphaarchitect.com/2022/09/brand-values-and-long-term-stock-returns/" target="_blank" rel="noopener">Alpha Architect</a>, "Brand Values and Long-term Stock Returns."</div>
 </div>
 
@@ -1328,10 +1328,10 @@
           <tr><td>Capped value-weighted</td><td class="a">0.22</td><td>3.16</td><td class="a">0.22</td><td>3.11</td></tr>
         </tbody>
       </table>
-      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="https://www.dropbox.com/scl/fi/f7hmed2tuzb50enwh5rtd/best_companies_ff6_table_all_weights.png?rlkey=reffdx3532xmecrxj0km1a8ew&dl=0">Table as image (PNG)</a></p>
+      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="figures/best-companies-ff6-table.png">Table as image (PNG)</a></p>
     </div>
   </details>
-  <div class="plinks"><a href="papers/employee-satisfaction-long-run-returns.pdf">PDF</a> · <a href="https://doi.org/10.1080/0015198X.2022.2074241">Journal</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3933687">SSRN</a> · <a href="https://www.dropbox.com/scl/fi/gdy0fcnx8ucmy8hipnn9y/BC_data_updated_2026.xlsx?rlkey=dqwx1ysexfztgs2l4udjbelg3&dl=0">Data (updated to 2026)</a></div>
+  <div class="plinks"><a href="papers/employee-satisfaction-long-run-returns.pdf">PDF</a> · <a href="https://doi.org/10.1080/0015198X.2022.2074241">Journal</a> · <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3933687">SSRN</a> · <a href="data/best-companies-to-work-for.xlsx">Data (updated to 2026)</a></div>
   <div class="press">Featured in <a href="https://www.ft.com/content/6d0e91fc-8b61-44ff-bb93-60bed872a0d1" target="_blank" rel="noopener">the Financial Times</a>, <a href="https://www.institutionalinvestor.com/article/2bsww1qi2u6q9rvn8zvuo/culture/want-to-pick-the-best-stocks-pick-the-happiest-companies" target="_blank" rel="noopener">Institutional Investor</a>, <a href="https://www.latribune.fr/opinions/tribunes/dans-une-entreprise-des-employes-satisfaits-rendent-aussi-les-investisseurs-heureux-924659.html" target="_blank" rel="noopener">La Tribune</a>, <a href="https://theconversation.com/dans-une-entreprise-des-employes-satisfaits-rendent-aussi-les-investisseurs-heureux-186059" target="_blank" rel="noopener">The Conversation</a>, and <a href="https://www.advisorperspectives.com/articles/2022/08/29/the-best-companies-to-work-for-are-also-good-investments" target="_blank" rel="noopener">Advisor Perspectives</a>.</div>
 </div>
 
@@ -1428,8 +1428,8 @@
 </div>
 <div class="pub">
   <div class="t">Best Brands in the U.S. (2000–2026)</div>
-  <div class="meta">from <em>The Brand Premium</em> (RFS, 2025) · updated to 2026</div>
-  <div class="plinks"><a href="https://www.dropbox.com/scl/fi/ujg0u99q0agt70lxt6koo/best_brands_US.xlsx?rlkey=eswo7q47hpuji7ii4nok4plxf&dl=0">Download</a></div>
+  <div class="meta">from <em>The Brand Premium</em> (RFS, 2025) · updated to 2026 · release November 2026</div>
+  <div class="plinks"><a href="data/best-brands-us.xlsx">Download</a></div>
   <details class="res"><summary>Original vs. updated results (FF6 alpha)</summary>
     <div class="rwrap">
       <table class="rtable">
@@ -1447,14 +1447,14 @@
           <tr class="ind"><td>Capped value-weighted</td><td class="a">0.53</td><td>2.94</td><td class="a">0.33</td><td>2.02</td></tr>
         </tbody>
       </table>
-      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="https://www.dropbox.com/scl/fi/hhzwhucz5c0i8ma4ls5l0/text_brand_vs_interbrand_ff6_table.png?rlkey=lzbt2wge89t23xt0t0974qtsl&dl=0">Table as image (PNG)</a></p>
+      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="figures/best-brands-ff6-table.png">Table as image (PNG)</a></p>
     </div>
   </details>
 </div>
 <div class="pub">
   <div class="t">Best Companies to Work For (1984–2026)</div>
-  <div class="meta">from <em>Employee Satisfaction and Long-Run Stock Returns</em> (FAJ, 2022) · updated to 2026</div>
-  <div class="plinks"><a href="https://www.dropbox.com/scl/fi/gdy0fcnx8ucmy8hipnn9y/BC_data_updated_2026.xlsx?rlkey=dqwx1ysexfztgs2l4udjbelg3&dl=0">Download</a></div>
+  <div class="meta">from <em>Employee Satisfaction and Long-Run Stock Returns</em> (FAJ, 2022) · updated to 2026 · release November 2026</div>
+  <div class="plinks"><a href="data/best-companies-to-work-for.xlsx">Download</a></div>
   <details class="res"><summary>Original vs. updated results (FF6 alpha)</summary>
     <div class="rwrap">
       <table class="rtable">
@@ -1469,21 +1469,21 @@
           <tr><td>Capped value-weighted</td><td class="a">0.22</td><td>3.16</td><td class="a">0.22</td><td>3.11</td></tr>
         </tbody>
       </table>
-      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="https://www.dropbox.com/scl/fi/f7hmed2tuzb50enwh5rtd/best_companies_ff6_table_all_weights.png?rlkey=reffdx3532xmecrxj0km1a8ew&dl=0">Table as image (PNG)</a></p>
+      <p class="rnote">FF6 alpha in percent per month; Newey-West t-statistics. Capped: market caps above the NYSE 80th percentile are set to that breakpoint. <a href="figures/best-companies-ff6-table.png">Table as image (PNG)</a></p>
     </div>
   </details>
 </div>
 <div class="pub">
-  <div class="t">Intangible Liabilities: firm-level data and dictionary (1995–2025)</div>
-  <div class="meta">from <em>Intangible Liabilities</em> (Management Science, 2026)</div>
-  <div class="plinks"><a href="https://www.dropbox.com/scl/fi/o8poo0g2m9tfviauqjamv/IL_data_1995_2025.xlsx?rlkey=56w7xgfu98gwxsd1n9445o768&dl=0">Download</a></div>
+  <div class="t">Intangible Liabilities: firm-level data (1995–2025)</div>
+  <div class="meta">from <em>Intangible Liabilities</em> (Management Science, 2026) · recount with one method for all years; covers Compustat-linked 10-K filers (192,143 firm-years, 20,173 firms) · release November 2026</div>
+  <div class="plinks"><a href="data/intangible-liabilities-firm-level.xlsx">Download</a></div>
   <details class="res"><summary>Original vs. updated results (high-minus-low IL portfolio)</summary>
     <div class="rwrap">
-      <a href="figures/intangible-liabilities-premium-updated.webp" target="_blank" rel="noopener" title="Open full size">
-        <img class="rfig" src="figures/intangible-liabilities-premium-updated.webp" width="1000" height="1000" loading="lazy"
-             alt="Bar chart: the intangible liabilities premium, published (1996–2021, 306 months) vs. updated (1996–Aug 2026, 362 months). High-minus-low IL portfolio, percent per year: excess return 4.35 (t = 2.49) vs. 4.48 (t = 2.58); CAPM alpha 4.89 (t = 2.57) vs. 4.63 (t = 2.43); FF3 alpha 5.47 (t = 3.24) vs. 5.59 (t = 3.34); FF6 alpha 3.45 (t = 2.72) vs. 4.71 (t = 3.39).">
+      <a href="figures/intangible-liabilities-premium-recount.webp" target="_blank" rel="noopener" title="Open full size">
+        <img class="rfig" src="figures/intangible-liabilities-premium-recount.webp" width="1000" height="1000" loading="lazy"
+             alt="Bar chart: the intangible liabilities premium, recounted. High-minus-low IL portfolio, percent per year, for the published Table 7 (1996–2021), the recount over the same months (1996–2021), and the recount extended to August 2026: excess return 4.35 (t = 2.49), 4.54 (t = 2.41), 4.59 (t = 2.51); CAPM alpha 4.89 (2.57), 5.17 (2.41), 4.90 (2.36); FF3 alpha 5.47 (3.24), 5.92 (3.08), 6.04 (3.39); FF6 alpha 3.45 (2.72), 3.88 (2.64), 4.97 (3.37).">
       </a>
-      <p class="rnote">High-minus-low IL portfolio, % per year (t-stat), published 1996–2021 → updated 1996–Aug 2026: excess return 4.35 (2.49) → 4.48 (2.58); CAPM alpha 4.89 (2.57) → 4.63 (2.43); FF3 alpha 5.47 (3.24) → 5.59 (3.34); FF6 alpha 3.45 (2.72) → 4.71 (3.39). Value-weighted quintiles on IL words per total words, December fiscal year-ends, Newey-West t-statistics. Published values: Table 7 of the paper; update adds 10-K data for FY2022–2025. Click the chart to enlarge.</p>
+      <p class="rnote">High-minus-low IL portfolio, % per year (Newey-West t): published (1996–2021) | recount, same months (1996–2021) | recount, extended to Aug 2026. Excess return 4.35 (2.49) | 4.54 (2.41) | 4.59 (2.51); CAPM alpha 4.89 (2.57) | 5.17 (2.41) | 4.90 (2.36); FF3 alpha 5.47 (3.24) | 5.92 (3.08) | 6.04 (3.39); FF6 alpha 3.45 (2.72) | 3.88 (2.64) | 4.97 (3.37). Value-weighted quintiles on IL words per total words, December fiscal year-ends. Published: Table 7 of the paper. Recount: IL counted with one method for FY1995–2025; CRSP and Fama–French factors to August 2026. Click the chart to enlarge.</p>
     </div>
   </details>
 </div>
